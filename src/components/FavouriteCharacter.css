@@ -1,0 +1,20 @@
+.favourite-character-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.favourite-image-container {
+    height: 150px;
+    width: 150px;
+}
+
+.favourite-character-image {
+    max-height: 150px;
+}
+
+.character-name {
+    text-transform: capitalize;
+    font-weight: bold;
+}

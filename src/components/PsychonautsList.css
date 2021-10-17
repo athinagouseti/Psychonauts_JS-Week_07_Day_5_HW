@@ -1,0 +1,16 @@
+#psychonauts-list {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}

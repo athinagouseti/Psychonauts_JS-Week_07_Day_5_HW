@@ -1,0 +1,14 @@
+.list-item {
+    padding: 5px 0;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: darkgreen;
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    max-width: 1024px;
+    height: 1024px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#logo {
+    height: 100px;
+}
+
+h2 {
+    color: green;
+    align-self: center;
+}

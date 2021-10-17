@@ -1,0 +1,39 @@
+#selected-characters {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+#character-name {
+    text-transform: capitalize;
+}
+
+#character-gender {
+    text-transform: capitalize;
+}
+
+#character-image {
+    width: 300px;
+    align-self: center;
+}
+
+#favourite-button {
+    margin-bottom: 20px;
+    background: purple;
+	color: inherit;
+	border: none;
+	padding: 10px 0px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 5px;
+}
+
+#favourite-button:hover {
+    background: #8a2991;
+}

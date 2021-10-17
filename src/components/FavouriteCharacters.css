@@ -1,0 +1,10 @@
+#favourite-characters {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: scroll;
+}
